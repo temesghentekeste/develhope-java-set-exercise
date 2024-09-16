@@ -34,5 +34,9 @@ public class Testing {
         daysOfTheWeekSortedSet.add("Saturday");
         daysOfTheWeekSortedSet.add("Sunday");
         System.out.println("Days of the week sorted set: " + daysOfTheWeekSortedSet);
+
+        //print the answer to the question Is the first Set equal to the second one?
+        boolean isEqual = daysOfTheWeekSet.equals(daysOfTheWeekSortedSet);
+        System.out.println("Is the first Set equal to the second one? " + isEqual);
     }
 }
