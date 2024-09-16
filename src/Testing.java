@@ -22,5 +22,17 @@ public class Testing {
         daysOfTheWeekSet.add("Saturday");
         daysOfTheWeekSet.add("Sunday");
         System.out.println("Days of the week set: " + daysOfTheWeekSet);
+
+
+        // create another implementation of Set that preserves the insertion order of the days of the week and print it
+        Set<String> daysOfTheWeekSortedSet = new LinkedHashSet<>();
+        daysOfTheWeekSortedSet.add("Monday");
+        daysOfTheWeekSortedSet.add("Tuesday");
+        daysOfTheWeekSortedSet.add("Wednesday");
+        daysOfTheWeekSortedSet.add("Thursday");
+        daysOfTheWeekSortedSet.add("Friday");
+        daysOfTheWeekSortedSet.add("Saturday");
+        daysOfTheWeekSortedSet.add("Sunday");
+        System.out.println("Days of the week sorted set: " + daysOfTheWeekSortedSet);
     }
 }
