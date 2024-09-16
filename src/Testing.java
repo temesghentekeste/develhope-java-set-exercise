@@ -12,6 +12,15 @@ print the answer to the question Is the first Set equal to the second one?
  */
 public class Testing {
     public static void main(String[] args) {
-
+        // create an HashSet with all the days of the week and print the content of the HashSet
+        Set<String> daysOfTheWeekSet = new HashSet<>();
+        daysOfTheWeekSet.add("Monday");
+        daysOfTheWeekSet.add("Tuesday");
+        daysOfTheWeekSet.add("Wednesday");
+        daysOfTheWeekSet.add("Thursday");
+        daysOfTheWeekSet.add("Friday");
+        daysOfTheWeekSet.add("Saturday");
+        daysOfTheWeekSet.add("Sunday");
+        System.out.println("Days of the week set: " + daysOfTheWeekSet);
     }
 }
